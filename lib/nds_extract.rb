@@ -22,7 +22,7 @@ def directors_totals(nds)
   #
   
   
-  movie_gross = 0
+ 
   name_index = 0
   while name_index < nds.length do
     
