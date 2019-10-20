@@ -19,10 +19,9 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  pp nds[0][:name]
-  #pp nds
+  #
   
-=begin
+  
   movie_gross = 0
   name_index = 0
   while name_index < nds.length do
@@ -35,6 +34,5 @@ def directors_totals(nds)
     name_index += 1
   end
 
-p  "#{nds[name_index]} made $#{movie_gross}"
-=end
+p  "#{nds[name_index][:name]} made $#{movie_gross}"
 end
