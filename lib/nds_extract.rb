@@ -31,7 +31,7 @@ def directors_totals(nds)
         movie_gross += nds[name_index][:movies][movie_index][:worldwide_gross]
       movie_index += 1
     end
-      if result.has_key?("#{nds[name_index][:name]}") == false
+      if result.has_key?(nds[name_index][:name]) == false
           result[nds[name_index][:name]] = movie_gross
       end
         name_index += 1
