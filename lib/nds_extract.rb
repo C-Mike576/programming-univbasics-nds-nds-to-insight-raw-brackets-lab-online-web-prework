@@ -30,7 +30,7 @@ def directors_totals(nds)
         movie_gross += nds[name_index][:movies][movie_index][:worldwide_gross]
       movie_index += 1
     end
-    p movie_gross
+   # p movie_gross
     name_index += 1
   end
 
