@@ -19,7 +19,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  pp nds[0]
+  pp nds[0][:name]
   #pp nds
   
 =begin
