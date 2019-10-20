@@ -34,6 +34,6 @@ pp nds
     name_index += 1
   end
 
-p  "#{name_index} made $#{movie_gross}"
+p  "#{nds[name_index][:name]} made $#{movie_gross}"
 
 end
