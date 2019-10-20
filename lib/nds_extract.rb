@@ -27,7 +27,6 @@ pp nds
   while name_index < nds.length do
     movie_index = 0
     while movie_index < nds[name_index].length do
-      inner_len = nds[name_index][:movies][movie_index].length
         movie_gross += nds[name_index][:movies][movie_index][:worldwide_gross]
       movie_index += 1
     end
