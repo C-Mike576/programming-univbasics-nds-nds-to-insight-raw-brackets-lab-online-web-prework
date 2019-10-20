@@ -20,7 +20,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   #pp nds[0][:movies][2][:worldwide_gross]
-#pp nds
+pp nds
 
   movie_gross = 0
   name_index = 0
