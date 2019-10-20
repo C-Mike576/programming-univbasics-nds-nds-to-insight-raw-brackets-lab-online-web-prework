@@ -34,6 +34,6 @@ def directors_totals(nds)
     name_index += 1
   end
 
-p movie_gross
+p  "#{name_index} made $#{movie_gross}"
 
 end
